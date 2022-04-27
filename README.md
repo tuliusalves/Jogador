@@ -1,2 +1,2 @@
 # Jogador
-Projeto usando Spring boot
+Projeto proposto pela fuctura academy usando Spring boot. 
