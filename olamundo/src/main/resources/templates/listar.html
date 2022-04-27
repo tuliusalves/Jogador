@@ -23,6 +23,20 @@
 		  </div>
 		</nav>
 	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col col-md-3" th:each="jogador : ${jogadores}">
+				<div>
+					<p>Nome: <span th:text=${jogador.nome}>???</span></p>
+					<p>Idade:<span th:text=${jogador.idade}>???</span></p>
+					<p>Altura:<span th:text=${jogador.altura}>???</span></p>
+					<p>Peso:<span th:text=${jogador.peso}>???</span></p>
+					<img th:src=${jogador.img}> 
+				</div>
+			</div>
+		</div>
+	</div>
 	
 </body>
 </html>
